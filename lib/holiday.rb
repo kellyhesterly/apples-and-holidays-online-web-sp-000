@@ -46,18 +46,23 @@ def all_winter_holiday_supplies(holiday_supplies)
   holiday_supplies[:winter].values.flatten
 end
 
-def all_supplies_in_holidays(holiday_supplies)
-  new_list = holiday_supplies.to_s
+# def all_supplies_in_holidays(holiday_supplies)
+#   new_list = holiday_supplies.to_s
+# 
+#   new_list.each_line do |season, holiday_hash|
+#     season.each_line {|s| "#{s.capitalize!}:"}
+#     holiday_hash.each_line do |holiday, supply|
+#     holiday.split.(&:capitalize!).join(' ')
+#   end
+#   end
+# end
 
-  new_list.each_line do |season, holiday_hash|
-    season.each_line {|s| "#{s.capitalize!}:"}
-    holiday_hash.each_line do |holiday, supply|
-    holiday.split.(&:capitalize!).join(' ')
-  end
+
+def all_supplies_in_holidays(holiday_supplies)
+  holiday_supplies.each do |season, holiday_hash|
+    binding.pry
   end
 end
-
-  # iterate through holiday_hash and print items such that your readout resembles:
 
 
   # return an array of holiday names (as symbols) where supply lists
