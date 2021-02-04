@@ -61,7 +61,7 @@ end
 
 def all_holidays_with_bbq(holiday_supplies)
   holiday_supplies.each_value do |season, holiday_hash|
-    
+  end
 end
 
   # return an array of holiday names (as symbols) where supply lists
