@@ -60,10 +60,7 @@ def all_supplies_in_holidays(holiday_supplies)
 end
 
 def all_holidays_with_bbq(holiday_supplies)
-  if holiday_supplies.values == "BBQ"
-    holiday_supplies.keys
-    binding.pry
-  end
+  holiday_supplies.values == "BBQ"
 end
 
   # return an array of holiday names (as symbols) where supply lists
