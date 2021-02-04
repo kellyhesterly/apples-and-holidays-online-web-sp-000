@@ -48,7 +48,7 @@ end
 
 def all_supplies_in_holidays(holiday_supplies)
   new_list = holiday_supplies.to_s
-binding.pry
+
   new_list.each_line do |season, holiday_hash|
     season.each_line {|s| "#{s.capitalize!}:"}
     holiday_hash.each_line do |holiday, supply|
