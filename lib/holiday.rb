@@ -69,4 +69,3 @@ def all_holidays_with_bbq(holiday_supplies)
   holiday_supplies.index(BBQ)
   binding.pry
 end
-
