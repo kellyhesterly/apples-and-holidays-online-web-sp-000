@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_supplies)
         word.capitalize
     end.join(" ")
     binding.pry
-    puts cap_holiday
+    puts cap_holiday.insert(-1, ":")
     end
   end
 end
