@@ -66,6 +66,7 @@ def all_holidays_with_bbq(holiday_supplies)
   #     binding.pry
   #   end
   # end
-holiday_supplies.has_value?(["BBQ"])
-binding.pry
+holiday_supplies.each do |season, holiday_hash|
+ season == :winter || :fall || :sumer || :spring
+ end
 end
