@@ -62,6 +62,7 @@ end
 def all_holidays_with_bbq(holiday_supplies)
   if holiday_supplies.values == "BBQ"
     holiday_supplies.keys
+    binding.pry
   end
 end
 
