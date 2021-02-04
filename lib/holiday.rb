@@ -69,10 +69,8 @@ def all_holidays_with_bbq(holiday_supplies)
 holiday_supplies.each do |season, holiday_hash|
  season == :winter || :fall || :sumer || :spring
  holiday_hash.each do |holiday, supply|
-   binding.pry
-   if supply "BBQ"
-    return holiday
-    binding.pry
+   if supply == ["BBQ"]
+     binding.pry
    end
  end
  end
