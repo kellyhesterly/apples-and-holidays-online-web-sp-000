@@ -71,6 +71,7 @@ holiday_supplies.each do |season, holiday_hash|
  holiday_hash.each do |holiday, supply|
    if supply == "BBQ"
     return holiday
+    binding.pry
    end
  end
  end
