@@ -67,5 +67,4 @@ def all_holidays_with_bbq(holiday_supplies)
   #   end
   # end
 holiday_supplies.has_value?(["BBQ"])
-  end
 end
