@@ -70,7 +70,7 @@ holiday_supplies.each do |season, holiday_hash|
  season == :winter || :fall || :sumer || :spring
  holiday_hash.each do |holiday, supply|
    if holiday.has_value?("BBQ")
-     return holiday
+    holiday
    end
  end
  end
