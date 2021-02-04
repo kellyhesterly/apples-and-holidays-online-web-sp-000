@@ -66,9 +66,7 @@ def all_holidays_with_bbq(holiday_supplies)
   #     binding.pry
   #   end
   # end
-  holiday_supplies.select do |key, value|
-    if value == "BBQ"
-      returnkey
-    end
+  holiday_supplies.each_value do |value|
+    puts value
   end
 end
