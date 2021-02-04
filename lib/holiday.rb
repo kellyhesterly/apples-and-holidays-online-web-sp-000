@@ -66,7 +66,6 @@ def all_holidays_with_bbq(holiday_supplies)
   #     binding.pry
   #   end
   # end
-  holiday_supplies.each_value do |value|
-    puts value
+holiday_supplies.has_value?(["BBQ"])
   end
 end
