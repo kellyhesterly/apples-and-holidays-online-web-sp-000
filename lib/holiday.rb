@@ -60,8 +60,7 @@ end
 
 def all_supplies_in_holidays(holiday_supplies)
   holiday_supplies.each do |season, holiday_hash|
-    season.to_s.capitalize! {|s| "#{s}!:"
-  }
+    season.to_s.capitalize!.insert(0, ":")
 binding.pry
   end
 end
