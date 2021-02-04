@@ -66,8 +66,8 @@ def all_supplies_in_holidays(holiday_supplies)
       cap_holiday = holiday_array.map do |word|
         word.capitalize.insert(-1, ":")
     end.join(" ")
-    supply = supply.to_s
-    puts cap_holiday.supply
+    supply_list = supply.to_s
+    puts cap_holiday.supply_list
     end
   end
 end
