@@ -66,6 +66,7 @@ def all_supplies_in_holidays(holiday_supplies)
       cap_holiday = holiday_array.map do |word|
         word.capitalize
     end
+    binding.pry
     end
   end
 end
