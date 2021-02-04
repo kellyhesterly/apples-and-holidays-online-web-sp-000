@@ -60,12 +60,14 @@ def all_supplies_in_holidays(holiday_supplies)
 end
 
 def all_holidays_with_bbq(holiday_supplies)
-  holiday_supplies.values.each do |value|
-  if value == "BBQ"
-      return holiday_supplies.keys
-      binding.pry
-    end
-  end
+  # holiday_supplies.values.each do |value|
+  # if value == "BBQ"
+  #     return 
+  #     binding.pry
+  #   end
+  # end
+  holiday_supplies.index("BBQ")
+  binding.pry
 end
 
   # return an array of holiday names (as symbols) where supply lists
