@@ -69,7 +69,7 @@ def all_holidays_with_bbq(holiday_supplies)
 holiday_supplies.each do |season, holiday_hash|
  season == :winter || :fall || :sumer || :spring
  holiday_hash.each do |holiday, supply|
-   if holiday.has_value?("BBQ")
+   if holiday.match?("BBQ")
     holiday
    end
  end
