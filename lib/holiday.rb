@@ -66,9 +66,7 @@ def all_holidays_with_bbq(holiday_supplies)
   #     binding.pry
   #   end
   # end
-  holiday_supplies.index("BBQ")
+  holiday_supplies.index(BBQ)
   binding.pry
 end
 
-  # return an array of holiday names (as symbols) where supply lists
-  # include the string "BBQ"
