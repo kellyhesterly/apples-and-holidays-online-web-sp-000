@@ -61,7 +61,7 @@ end
 
 def all_holidays_with_bbq(holiday_supplies)
   holiday_supplies.values
-    
+
   end
 end
 
