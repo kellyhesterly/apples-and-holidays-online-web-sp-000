@@ -65,5 +65,4 @@ holiday_supplies.map do |season, holiday_hash|
     holiday if supply.include?("BBQ")
   end
  end
- holiday.flatten
-end
+end.flatten
