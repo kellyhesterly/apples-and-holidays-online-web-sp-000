@@ -62,10 +62,13 @@ end
 def all_holidays_with_bbq(holiday_supplies)
   # holiday_supplies.values.each do |value|
   # if value == "BBQ"
-  #     return
+  #     holiday_supplies.index
   #     binding.pry
   #   end
   # end
-  holiday_supplies.index('BBQ')
-  binding.pry
+  holiday_supplies.select do |key, value|
+    if value == "BBQ"
+      key
+    end
+  end
 end
