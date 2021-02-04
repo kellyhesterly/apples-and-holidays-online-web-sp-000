@@ -60,12 +60,6 @@ def all_supplies_in_holidays(holiday_supplies)
 end
 
 def all_holidays_with_bbq(holiday_supplies)
-  # holiday_supplies.values.each do |value|
-  # if value == "BBQ"
-  #     holiday_supplies.index
-  #     binding.pry
-  #   end
-  # end
 holiday_supplies.map do |season, holiday_hash|
   holiday_hash.map do |holiday, supply|
     holiday if supply.include?("BBQ")
