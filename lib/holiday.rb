@@ -63,7 +63,8 @@ def all_holidays_with_bbq(holiday_supplies)
   holiday_supplies.values.each do |value|
   if value == "BBQ"
     return holiday_supplies.keys
-end
+  end
+  end
 end
 
   # return an array of holiday names (as symbols) where supply lists
